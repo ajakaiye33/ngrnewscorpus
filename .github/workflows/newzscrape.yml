@@ -1,0 +1,26 @@
+on:
+    push:
+        branches: master
+
+name: Scrape Online Newspaers
+jobs:
+    render:
+        name:Scrape Online Newspapers
+        runs-on: ubuntu-latest
+        steps:
+            name: Checkout code
+            - uses: actions/checkout@v2
+            name: Set up Python 3.9
+            - uses:actions/setup-python@v2
+            with:
+                python-version: "3.9"
+            name: Install dependencies
+            run: pip install -r requirements.txt
+            name: Pull_data
+            run:python newsscrapy.py
+            name: Git commit
+            run: |
+               git add data/*
+               git commit -m 'Commiting data'
+            name: Git push
+            run: git push origin master

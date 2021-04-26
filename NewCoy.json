@@ -1,0 +1,71 @@
+{
+"punch":{
+
+            "link":"https://punchng.com/topics/news/"
+},
+
+
+"vanguard": {
+            "link":"https://www.vanguardngr.com/category/national-news/"
+},
+
+"dailypost":{
+            "link":"https://dailypost.ng/"
+},
+
+
+"thenation":{
+            "link":"https://thenationonlineng.net/"
+            },
+
+"sun_news":{
+            "link":"https://www.sunnewsonline.com/"
+},
+
+"thisday":{
+            "link":"https://www.thisdaylive.com/"
+},
+
+"saharareporters":{
+
+            "link":"http://saharareporters.com/"
+},
+
+"thecable":{
+"link":"https://www.thecable.ng/"
+},
+"tech_cabal":{
+    "link":"https://techcabal.com/"
+},
+"tribune":{
+    "link":"https://tribuneonlineng.com/"
+},
+"observer":{
+    "link":"https://nigerianobservernews.com/"
+},
+"premium_times":{
+    "link":"https://www.premiumtimesng.com/"
+},
+
+"hallmark":{
+    "link":"https://hallmarknews.com/"
+},
+"leadership":{
+    "link":"https://leadership.ng/"
+},
+"daily_trust":{
+    "link":"https://dailytrust.com/"
+},
+"daylight":{
+    "link":"https://daylightng.com/"
+},
+
+"pm_news":{
+    "link":"https://www.pmnewsnigeria.com/"
+},
+"news_direct":{
+    "link":"https://newsdirect.ng/"
+}
+
+
+}
