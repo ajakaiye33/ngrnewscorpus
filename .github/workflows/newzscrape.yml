@@ -1,7 +1,7 @@
 name: Scrape Online Newspapers
 on:
     push:
-        branches: master
+        branches: main
 
 name: Scrape Online Newspapers
 jobs:
