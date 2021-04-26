@@ -3,11 +3,11 @@ on:
     push:
         branches: master
 
-name: Scrape Online Newspaers
+name: Scrape Online Newspapers
 jobs:
     render:
         name:Scrape Online Newspapers
-        runs-on: ubuntu-latest
+        runs-on: macOS-latest
         steps:
             name: Checkout code
             - uses: actions/checkout@v2
