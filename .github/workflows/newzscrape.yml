@@ -1,3 +1,4 @@
+name: Scrape Online Newspapers
 on:
     push:
         branches: master
