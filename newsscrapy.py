@@ -12,6 +12,8 @@ import feedparser as fp
 import newspaper
 from newspaper import Article
 import jsonlines
+import nltk
+nltk.download('punkt')
 
 
 data = {}
