@@ -92,7 +92,6 @@ def _handle_fallback(company, value, count, limit):
         try:
             content.download()
             content.parse()
-            content.download('punkt')
             content.nlp()
         except Exception as err:
             print(err)
