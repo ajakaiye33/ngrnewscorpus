@@ -115,11 +115,11 @@ def _handle_fallback(company, value, count, limit):
             continue
         article = {
             "title": content.title,
-            "text": content.text,
+            # "text": content.text,
             "summary": content.summary,
             "link": content.url,
             "published": content.publish_date.strftime("%m/%d/%Y"),
-            "run": run_date.strftime("%m/%d/%Y"),
+            "scraped_date": run_date.strftime("%m/%d/%Y"),
             "keywords": content.keywords,
         }
         news_paper["articles"].append(article)
@@ -186,41 +186,12 @@ def run(config, limit=2):
                 json.dump(entry, f)
                 f.write('\n')
 
-    # parser = configparser.ConfigParser()
-    # parser.read("pipeline.conf")
-    # access_key = parser.get("aws_boto_credentials", "access_key")
-    # secret_key = parser.get("aws_boto_credentials", "secret_key")
-    # bucket_name = parser.get("aws_boto_credentials", "bucket_name")
-    #
-    # s3 = boto3.client('s3', aws_access_key_id=access_key, aws_secret_access_key=secret_key)
-    #
-    # s3_file = updatejson
-    #
-    # s3.upload_file(export_file, bucket_name, s3_file)
-
     except Exception as err:
         print(err)
-   # load the aws_boto credentials
 
 
 def main():
-    # """News site scraper.
-    #
-    # Takes a command line argument containing json.
-    # """
-    #
-    # args = list(sys.argv)
-    #
-    # if len(args) < 2:
-    #     sys.exit("Usage: newsscraper.py NewsPapers.json")
-    #
-    # limit = 9
-    # if "--limit" in args:
-    #     idx = args.index("--limit")
-    #     limit = int(args[idx + 1])
-    #     args = [args[i] for i in range(len(args)) if i not in (idx, idx + 1)]
 
-    # fname = args[1]
     fname = './NewCoy.json'
     try:
         config = parse_config(fname)
