@@ -29,9 +29,11 @@ jobs:
             name: Git commit
             run: |
                git add data/*
+               git config --local user.email "action@github.com"
+               git config --local user.name "GitHub Action"
                git commit -m 'Commiting data'
             name: Git push
             run: |
-            git push origin main
+              git push origin main
             env:
                 TOKEN: ${{secrets.GITHUB_TOKEN}}
