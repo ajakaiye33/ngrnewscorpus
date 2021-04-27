@@ -147,7 +147,7 @@ def run(config, limit=2):
             count, news_paper = _handle_fallback(company, value, count, limit)
         data["newspapers"][company] = news_paper
     export_file = "./data/scraped_articles.json"
-    updatejson = "testy.jsonl"
+    updatejson = "./data/testy.jsonl"
 
     # Finally it saves the articles as a JSON-file.
     try:
