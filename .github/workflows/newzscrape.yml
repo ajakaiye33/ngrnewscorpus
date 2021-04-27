@@ -1,39 +1,80 @@
-name: Scrape Online Newspapers
+# name: Scrape Online Newspapers
+#
+#
+# on:
+#     push:
+#         branches: main
+#
+# jobs:
+#     render:
+#         name:Scrape Online Newspapers
+#         runs-on: ubuntu-latest
+#         steps:
+#             - name: Checkout Repo Content
+#             uses: actions/checkout@v2
+#
+#             - name: Set up Python 3.9
+#             uses:actions/setup-python@v2
+#             with:
+#                 python-version: "3.9" # install python version needed
+#
+#             - name: Install dependencies
+#             run: |
+#                python -m pip install --upgrade pip
+#                pip install -r requirements.txt
+#
+#             - name: Pull_data #execute py script
+#             run: |
+#             python newsscrapy.py
+#             name: Git commit
+#             run: |
+#                git add data/*
+#                git config --local user.email "action@github.com"
+#                git config --local user.name "GitHub Action"
+#                git commit -m 'Commiting data'
+#             name: Git push
+#             run: |
+#               git push origin main
+#             env:
+#                 TOKEN: ${{secrets.GITHUB_TOKEN}}
 
+
+
+name: scrape-online-newspapers-for-news
 
 on:
-    push:
-        branches: main
+  schedule:
+    - cron: '0 4 * * *' # runs at 2:00 UTC everyday
 
 jobs:
-    render:
-        name:Scrape Online Newspapers
-        runs-on: ubuntu-latest
-        steps:
-            - name: Checkout Repo Content
-            uses: actions/checkout@v2
+  build:
+    runs-on: ubuntu-latest
+    steps:
 
-            - name: Set up Python 3.9
-            uses:actions/setup-python@v2
-            with:
-                python-version: "3.9" # install python version needed
+      - name: checkout repo content
+        uses: actions/checkout@v2 # checkout the repository content to github runner
 
-            - name: Install dependencies
-            run: |
-               python -m pip install --upgrade pip
-               pip install -r requirements.txt
+      - name: setup python
+        uses: actions/setup-python@v2
+        with:
+          python-version: '3.9.0' # install the python version needed
 
-            - name: Pull_data #execute py script
-            run: |
-            python newsscrapy.py
-            name: Git commit
-            run: |
-               git add data/*
-               git config --local user.email "action@github.com"
-               git config --local user.name "GitHub Action"
-               git commit -m 'Commiting data'
-            name: Git push
-            run: |
-              git push origin main
-            env:
-                TOKEN: ${{secrets.GITHUB_TOKEN}}
+      - name: install python packages
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt
+      - name: execute py script # run ngrnewscorpus.py to get the latest data
+
+        run: python ngrnewscorpus.py
+
+      - name: commit files
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add -A
+          git commit -m "update data" -a
+      - name: push changes
+        uses: ad-m/github-push-action@v0.6.0
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          branch: main
