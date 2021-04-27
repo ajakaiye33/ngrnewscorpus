@@ -15,6 +15,7 @@ ipykernel = "*"
 newspaper3k = "*"
 jsonlines = "*"
 feedparser = "*"
+jq = "*"
 
 [requires]
 python_version = "3.9"
