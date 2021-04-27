@@ -156,34 +156,34 @@ def run(config, limit=2):
         with open('./data/scraped_articles.json', 'r') as f:
             prety_data = json.load(f)
 
-    see_data = []
-    all_articles = [
-        prety_data['newspapers']['punch']['articles'],
-        prety_data['newspapers']['vanguard']['articles'],
-        prety_data['newspapers']['dailypost']['articles'],
-        prety_data['newspapers']['thenation']['articles'],
-        prety_data['newspapers']['sun_news']['articles'],
-        prety_data['newspapers']['thisday']['articles'],
-        prety_data['newspapers']['saharareporters']['articles'],
-        prety_data['newspapers']['thecable']['articles'],
-        prety_data['newspapers']['tech_cabal']['articles'],
-        prety_data['newspapers']['tribune']['articles'],
-        prety_data['newspapers']['observer']['articles'],
-        prety_data['newspapers']['premium_times']['articles'],
-        prety_data['newspapers']['hallmark']['articles'],
-        prety_data['newspapers']['leadership']['articles'],
-        prety_data['newspapers']['daily_trust']['articles'],
-        prety_data['newspapers']['daylight']['articles'],
-        prety_data['newspapers']['pm_news']['articles']]
+        see_data = []
+        all_articles = [
+            prety_data['newspapers']['punch']['articles'],
+            prety_data['newspapers']['vanguard']['articles'],
+            prety_data['newspapers']['dailypost']['articles'],
+            prety_data['newspapers']['thenation']['articles'],
+            prety_data['newspapers']['sun_news']['articles'],
+            prety_data['newspapers']['thisday']['articles'],
+            prety_data['newspapers']['saharareporters']['articles'],
+            prety_data['newspapers']['thecable']['articles'],
+            prety_data['newspapers']['tech_cabal']['articles'],
+            prety_data['newspapers']['tribune']['articles'],
+            prety_data['newspapers']['observer']['articles'],
+            prety_data['newspapers']['premium_times']['articles'],
+            prety_data['newspapers']['hallmark']['articles'],
+            prety_data['newspapers']['leadership']['articles'],
+            prety_data['newspapers']['daily_trust']['articles'],
+            prety_data['newspapers']['daylight']['articles'],
+            prety_data['newspapers']['pm_news']['articles']]
 
-    for articlez in all_articles:
-        for line in articlez:
-            see_data.append(line)
+        for articlez in all_articles:
+            for line in articlez:
+                see_data.append(line)
 
-    with open(updatejson, mode='a') as f:
-        for entry in see_data:
-            json.dump(entry, f)
-            f.write('\n')
+        with open(updatejson, mode='a') as f:
+            for entry in see_data:
+                json.dump(entry, f)
+                f.write('\n')
 
     # parser = configparser.ConfigParser()
     # parser.read("pipeline.conf")
@@ -197,8 +197,8 @@ def run(config, limit=2):
     #
     # s3.upload_file(export_file, bucket_name, s3_file)
 
-    # except Exception as err:
-    #     print(err)
+    except Exception as err:
+        print(err)
    # load the aws_boto credentials
 
 
