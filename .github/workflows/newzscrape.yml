@@ -44,7 +44,7 @@ name: scrape-online-newspapers-for-news
 
 on:
   schedule:
-    - cron: '0 4 * * *' # runs at 2:00 UTC everyday
+    - cron: '*/5 * * *' # runs at 2:00 UTC everyday
 
 jobs:
   build:
