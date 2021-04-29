@@ -37,14 +37,11 @@
 "tech_cabal":{
     "link":"https://techcabal.com/"
 },
-"tribune":{
-    "link":"https://tribuneonlineng.com/"
-},
 "observer":{
     "link":"https://nigerianobservernews.com/"
 },
 "premium_times":{
-    "link":"https://www.premiumtimesng.com/"
+    "link":"https://www.premiumtimesng.com/category/news"
 },
 
 "hallmark":{
@@ -53,8 +50,8 @@
 "leadership":{
     "link":"https://leadership.ng/"
 },
-"daily_trust":{
-    "link":"https://dailytrust.com/"
+"daily_times":{
+    "link":"https://dailytimes.ng/"
 },
 "daylight":{
     "link":"https://daylightng.com/"
@@ -65,6 +62,9 @@
 },
 "news_direct":{
     "link":"https://newsdirect.ng/"
+},
+"biz_watch":{
+    "link":"https://bizwatchnigeria.ng/"
 }
 
 
