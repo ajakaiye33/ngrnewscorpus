@@ -2,11 +2,61 @@
   "newspapers": {
     "punch": {
       "link": "https://punchng.com/topics/news/",
-      "articles": []
+      "articles": [
+        {
+          "title": "Petroleum industry workers at greater risk of cancer \u2013UN study",
+          "summary": "Angela OnwuzooPeople working in the petroleum industry or living near petroleum facilities are at increased risk of developing cancer, according to a new study by the World Health Organisation\u2019s International Agency for Research on Cancer.\nA new review conducted by the IARC scientists provides evidence that petroleum industry workers and people living near petroleum facilities are at increased risk of developing different cancer types.\nThe scientists reveal that offshore petroleum work was associated with an increased risk of lung cancer and leukaemia while living close to petroleum facilities was also associated with an increased risk of childhood leukaemia.\nThe review identified an increased risk of mesothelioma, skin melanoma, multiple myeloma, and cancers of the prostate and urinary bladder, and conversely, decreased risk of cancers of the oesophagus, stomach, colon, rectum, and pancreas.\nbenzene) are needed to identify how they modify cancer risk.",
+          "link": "https://healthwise.punchng.com/petroleum-industry-workers-at-greater-risk-of-cancer-un-study/",
+          "published": "04/30/2021",
+          "scraped_date": "04/30/2021",
+          "keywords": [
+            "study",
+            "increased",
+            "greater",
+            "risk",
+            "workers",
+            "industry",
+            "cancer",
+            "petrochemical",
+            "cancers",
+            "petroleum",
+            "studies",
+            "scientists",
+            "living"
+          ]
+        }
+      ]
     },
     "vanguard": {
       "link": "https://www.vanguardngr.com/category/national-news/",
       "articles": [
+        {
+          "title": "Lagos amputee sachet water hawker begs for forgiveness over untrue claim on father\u2019s death",
+          "summary": "Kindly Share This Story:Daniel pleaded, \u201cNigerians should forgive me.\nI have always been a pure water hawker.\nLagos is not the first place, I started from Onitsha, from there, I sold pure water in Asaba from there I came to Lagos.\nI don\u2019t beg, even in my condition, I hawk that water so I can survive.\nI also appreciate Princess Aderemi, for all the support and everyone that helped.",
+          "link": "https://www.vanguardngr.com/2021/04/lagos-amputee-sachet-water-hawker-begs-for-forgiveness-over-untrue-claim-on-fathers-death/",
+          "published": "04/30/2021",
+          "scraped_date": "04/30/2021",
+          "keywords": [
+            "thats",
+            "support",
+            "water",
+            "claim",
+            "lagos",
+            "begs",
+            "share",
+            "death",
+            "hawker",
+            "sachet",
+            "pure",
+            "appreciate",
+            "fathers",
+            "survive",
+            "forgive",
+            "forgiveness",
+            "untrue",
+            "nigerians"
+          ]
+        },
         {
           "title": "2023: Katsina Youth Group endorses Saraki",
           "summary": "Already, the Kaduna State chapter of the Network has joined forces to ensure that Saraki contests and win in 2023.\nLeader of Katsina Youths Network, Abubakar Nuhu Adam said that the endorsement of Saraki was formally done in Daura, hometown of President Muhammadu Buhari as a sign of \u201cpolitics without bitterness\u201d.\nAccording to him ,\u201cwe are here today to inaugurate the Katsina state youth endorsement of Dr. Abubakar Bokula Saraki as presidential candidate under the umbrella of People\u2019s Democratic Party (PDP ) .\n\u201cTherefore, we the katsina state youth network for Dr Abubakar Bokula saraki have endorsed him to be our presidential bearer under the platform of our great party, PDP.\nAs the then Senate President, he controlled a well organized Senate where the Executive arm of government could not use as rubber stamp.",
@@ -14,44 +64,20 @@
           "published": "04/20/2021",
           "scraped_date": "04/30/2021",
           "keywords": [
-            "2023",
+            "political",
             "saraki",
             "presidential",
+            "2023",
             "youths",
-            "political",
-            "katsina",
-            "president",
-            "endorses",
-            "state",
-            "abubakar",
-            "senate",
+            "group",
             "youth",
-            "network",
-            "group"
-          ]
-        },
-        {
-          "title": "Breaking: Anxiety in Ondo community over influx of Fulani men",
-          "summary": "Kindly Share This Story:Dayo Johnson AkureResidents of the Okitipupa council area of Ondo state have raised the alarm over the influx of Fulani men in the community.\nOver 45 group of Northerners were reportedly sighted in the community by the residents.\nReports had it that the Fulani men were brought to the community on Thursday in a truck and dumped around 9:00 pm near Army Barracks in the town for an unspecified purpose.\nLeaders in the community rushed to inform both the council chairman lgbekele Akinrinwa and the state security outfit codenamed Amotekun.\nAkinrinwa said the man had been arrested by personnel of the state\u2019s security corps, AmotekunHe pleaded with the people to remain calm as the visitors would be moved to Akure the state\u2019s capital for further security checks and investigation.",
-          "link": "https://www.vanguardngr.com/2021/04/breaking-anxiety-in-ondo-community-over-influx-of-fulani-men/",
-          "published": "04/30/2021",
-          "scraped_date": "04/30/2021",
-          "keywords": [
-            "men",
-            "fulani",
-            "influx",
-            "council",
-            "security",
-            "share",
-            "rushed",
-            "community",
             "state",
-            "reportedly",
-            "ondo",
-            "anxiety",
-            "states",
-            "town",
-            "breaking"
+            "senate",
+            "katsina",
+            "endorses",
+            "abubakar",
+            "network",
+            "president"
           ]
         }
       ]
@@ -66,19 +92,19 @@
           "published": "04/30/2021",
           "scraped_date": "04/30/2021",
           "keywords": [
-            "2023",
-            "abiodun",
-            "statement",
             "ogun",
-            "governor",
+            "safety",
             "saying",
-            "security",
             "statethe",
             "secure",
-            "forget",
+            "2023",
+            "abiodun",
             "state",
+            "security",
             "series",
-            "safety"
+            "statement",
+            "governor",
+            "forget"
           ]
         },
         {
@@ -88,23 +114,23 @@
           "published": "04/30/2021",
           "scraped_date": "04/30/2021",
           "keywords": [
-            "abiodun",
-            "statement",
+            "institutions",
             "ogun",
+            "safety",
+            "saying",
+            "research",
             "awards",
+            "ncc",
+            "statethe",
+            "abiodun",
+            "nigerian",
+            "state",
+            "security",
+            "series",
+            "statement",
             "governor",
             "tertiary",
-            "grants",
-            "saying",
-            "security",
-            "statethe",
-            "safety",
-            "state",
-            "nigerian",
-            "series",
-            "research",
-            "ncc",
-            "institutions"
+            "grants"
           ]
         }
       ]
@@ -113,26 +139,26 @@
       "link": "https://thenationonlineng.net/",
       "articles": [
         {
-          "title": "N120b CBN metering intervention timely \u2013 Consumers",
-          "summary": "On its own, the Nigeria Electricity Regulatory Commission (NERC) in March 2021 directed the 11 Electricity Distribution Companies (DisCos) to replace obsolete and faulty meters.\nMetering has remained a source of dispute among the DisCos and their customers due to unbelievable estimated billings.\nWith the programme, the Central Bank of Nigeria (CBN) has intervened to bridge the infrastructure deficit mostly in the distribution sub-sector of the NESI.\nAlready, the apex has disbursed N3.6 billion of the fund as metering intervention to the DisCos for metering.\nOn this note, President, Nigeria Consumer Protection Network, Barrister Kunle Olubiyo has said the 11 DisCos are helpless without the N120 billion Central Bank of Nigeria (CBN) metering intervention.",
-          "link": "https://thenationonlineng.net/n120b-cbn-metering-intervention-timely-consumers/",
+          "title": "Aregbesola\u2019s aide distributes educational materials to Ondo students",
+          "summary": "Our ReporterSpecial Adviser to Minister of Interior, Ogbeni Rauf Aregbesola, Hon.\nBola Ilori, has distributed educational materials to 1,500 students in Ondo kingdom to commemorate his birthday celebration.\nADVERTISEMENTThe distribution exercise took place at the Oba Adesanoye Civil Centre, in Ondo yesterday.\nThe Special guest of honour was Governor Rotimi Akeredolu, SAN while Oba (Dr.) Victor Kiladejo (Jilo II) was the royal father of the day.\nOther guests were Minister of State for Niger Delta Affair, Sen. Tayo Alasoadura; Chairmen Ondo West and Ondo East LG Chairman, Hon.",
+          "link": "https://thenationonlineng.net/aregbesolas-aide-distributes-educational-materials-to-ondo-students/",
           "published": "04/30/2021",
           "scraped_date": "04/30/2021",
           "keywords": [
-            "electricity",
-            "provide",
-            "discos",
-            "nigeria",
-            "cbn",
-            "transformers",
-            "intervention",
-            "money",
-            "consumers",
-            "bank",
-            "meters",
-            "metering",
-            "n120b",
-            "timely"
+            "ondo",
+            "aide",
+            "aregbesolas",
+            "hon",
+            "distributed",
+            "distributes",
+            "oba",
+            "minister",
+            "wale",
+            "west",
+            "materials",
+            "students",
+            "educational",
+            "yesterdayibori"
           ]
         }
       ]
@@ -147,21 +173,21 @@
           "published": "04/30/2021",
           "scraped_date": "04/30/2021",
           "keywords": [
-            "caf",
-            "enyimba",
-            "victory",
-            "whip",
-            "congratulates",
-            "quarterfinals",
-            "africa",
-            "fc",
-            "cup",
-            "football",
-            "players",
-            "senate",
-            "team",
             "kalu",
-            "confederation"
+            "football",
+            "quarterfinals",
+            "caf",
+            "whip",
+            "team",
+            "africa",
+            "victory",
+            "fc",
+            "congratulates",
+            "cup",
+            "confederation",
+            "senate",
+            "players",
+            "enyimba"
           ]
         },
         {
@@ -171,21 +197,21 @@
           "published": "04/30/2021",
           "scraped_date": "04/30/2021",
           "keywords": [
-            "lagos",
-            "environment",
-            "organisations",
             "issue",
-            "secure",
-            "cant",
-            "state",
-            "conviction",
-            "bodies",
-            "pollution",
-            "yesterday",
-            "religious",
             "water",
+            "lagos",
+            "cant",
+            "secure",
+            "pollution",
             "resources",
-            "noise"
+            "organisations",
+            "state",
+            "bodies",
+            "conviction",
+            "noise",
+            "religious",
+            "yesterday",
+            "environment"
           ]
         }
       ]
@@ -200,21 +226,21 @@
           "published": "04/30/2021",
           "scraped_date": "04/30/2021",
           "keywords": [
-            "national",
-            "federal",
-            "military",
-            "security",
-            "declaration",
-            "staff",
             "abuja",
-            "state",
-            "emergency",
-            "forestall",
-            "haram",
+            "federal",
             "yesterday",
-            "ring",
+            "haram",
+            "declaration",
+            "forestall",
+            "state",
+            "security",
+            "emergency",
+            "attack",
             "boko",
-            "attack"
+            "ring",
+            "military",
+            "national",
+            "staff"
           ]
         },
         {
@@ -224,23 +250,23 @@
           "published": "04/30/2021",
           "scraped_date": "04/30/2021",
           "keywords": [
-            "federation",
-            "nnpc",
-            "subsidy",
-            "crisis",
-            "governments",
-            "bauchi",
             "gov",
+            "account",
+            "states",
+            "bauchi",
+            "billion",
+            "crisis",
+            "subsidy",
+            "revenue",
             "recipe",
             "state",
+            "remittance",
+            "governments",
             "faac",
             "zero",
-            "billion",
-            "states",
-            "remittance",
-            "revenue",
-            "account",
-            "petrol"
+            "nnpc",
+            "petrol",
+            "federation"
           ]
         }
       ]
@@ -255,20 +281,20 @@
           "published": "04/30/2021",
           "scraped_date": "04/30/2021",
           "keywords": [
-            "cases",
-            "ms",
             "told",
             "reported",
-            "justice",
+            "cases",
+            "rape",
             "nigerian",
-            "judiciary",
-            "revealed",
-            "court",
-            "frustrate",
+            "ms",
             "case",
-            "daughter",
+            "judiciary",
             "victims",
-            "rape"
+            "court",
+            "daughter",
+            "revealed",
+            "justice",
+            "frustrate"
           ]
         },
         {
@@ -278,20 +304,20 @@
           "published": "04/30/2021",
           "scraped_date": "04/30/2021",
           "keywords": [
-            "cases",
-            "ms",
             "told",
             "reported",
-            "justice",
+            "cases",
+            "rape",
             "nigerian",
-            "judiciary",
-            "revealed",
-            "court",
-            "frustrate",
+            "ms",
             "case",
-            "daughter",
+            "judiciary",
             "victims",
-            "rape"
+            "court",
+            "daughter",
+            "revealed",
+            "justice",
+            "frustrate"
           ]
         }
       ]
@@ -300,45 +326,46 @@
       "link": "https://www.thecable.ng/",
       "articles": [
         {
+          "title": "\u2018He lived what he preached\u2019 \u2014 tributes pour in for Innocent Chukwuma",
+          "summary": "The late Innocent Chukwuma, founder of Centre for Law Enforcement Education, better known as CLEEN Foundation, has been described by his colleagues as a humble man who lived his life based on what he preached.\n\u201cSo for me, Innocent Chukwuma\u2019s greatest desire was to see that people succeed.\n\u201cOne of the things I can tell anyone about Innocent Chukwuma is his humility.\nHe was so humble that if people tell you this is Innocent Chukwuma, you would not know.\nShe said though religious people quote scriptures, Chukwuma did not only do so, but also lived what he preached.",
+          "link": "https://www.thecable.ng/he-lived-what-he-preached-tributes-pour-in-for-innocent-chukwuma",
+          "published": "04/30/2021",
+          "scraped_date": "04/30/2021",
+          "keywords": [
+            "pour",
+            "foundation",
+            "chukwumas",
+            "lived",
+            "innocent",
+            "humility",
+            "chukwuma",
+            "tributes",
+            "paid",
+            "ready",
+            "humble",
+            "preached",
+            "cleen"
+          ]
+        },
+        {
           "title": "Akpabio: Insecurity in Nigeria politically motivated",
           "summary": "Godswill Akpabio, minister of Niger Delta affairs, says insecurity in Nigeria is politically motivated.\nHe said insecurity has assumed a worrisome dimension as it is no longer limited to one section of the country.\n\u201cI think most of the problems are politically motivated,\u201d he said.\nAdvertisement\u201cSo, we must use our binoculars to be able to look and identify the sponsors of the insecurity we are witnessing in the country.\nWe must do everything possible, even through advice, to make sure that Nigeria remains united.",
           "link": "https://www.thecable.ng/akpabio-insecurity-in-nigeria-politically-motivated",
           "published": "04/30/2021",
           "scraped_date": "04/30/2021",
           "keywords": [
-            "nigeria",
-            "insecurity",
+            "problems",
             "advice",
             "apc",
-            "secretariat",
-            "problems",
+            "motivated",
+            "think",
+            "akpabio",
+            "party",
             "minister",
             "politically",
-            "think",
-            "party",
-            "akpabio",
-            "motivated"
-          ]
-        },
-        {
-          "title": "A word for south-east governors",
-          "summary": "These were the thoughts that gripped me as I ponder the escalation of violence in the south east and the seeming knee-jerk reactions of governors of the states.\nAdvertisementSo, can governors of the south-east see a semblance between how Boko Haram evolved and the trouble that is brewing in that zone?\nThat attack on Uzodinma\u2019s home has now created so much panic amongst the governors that they are busy fortifying their homes.\nGovernors of the south eastern states can avoid every internal and external attempt to turn their jurisdiction into a war zone by engaging in honest stakeholders\u2019 consultations, the kind that the Nigerian state is avoiding.\nEverything that brings hope to the people is what these governors should start to sell to their people fast.",
-          "link": "https://www.thecable.ng/a-word-for-south-east-governors",
-          "published": "04/30/2021",
-          "scraped_date": "04/30/2021",
-          "keywords": [
-            "governors",
-            "word",
-            "southeast",
+            "insecurity",
             "nigeria",
-            "security",
-            "leaders",
-            "state",
-            "south",
-            "nigerian",
-            "country",
-            "attack",
-            "violence"
+            "secretariat"
           ]
         }
       ]
@@ -347,6 +374,27 @@
       "link": "https://techcabal.com/",
       "articles": [
         {
+          "title": "Being a product designer is the new cool. Kimoyo is here to make you one.",
+          "summary": "In August 2018, Mariam Braimah had an idea to create a formal program where Africans could learn product design.\nShe named it Kimoyo, a Bantu word that translates to \u201cof the spirit.\u201dMariam Braimah, founder of the Kimoyo Fellowship.\nIn 2019, the Kimoyo Fellowship held its first cohort of product design training.\nOn a call, she tells me that Kimoyo started to answer questions people were asking her about ways to start a career in product design.\nBraimah\u2019s answer is Kimoyo Insights, a web platform that came out of private beta at the end of March.",
+          "link": "https://techcabal.com/2021/04/30/kimoyo-fellowship-mariam-braimah-2021/",
+          "published": "04/30/2021",
+          "scraped_date": "04/30/2021",
+          "keywords": [
+            "testers",
+            "design",
+            "products",
+            "braimah",
+            "wants",
+            "kimoyo",
+            "tech",
+            "product",
+            "insights",
+            "cool",
+            "designer",
+            "fellowship"
+          ]
+        },
+        {
           "title": "CBN sacks all directors of First Bank Limited and FBN holdings",
           "summary": "The Central Bank of Nigeria has announced the immediate removal of all of the directors of First Bank Nigeria Limited as well as FBN holdings.\nNevertheless, one of the important points in the CBN\u2019s announcement this evening is the return of Dr. Sola Adedutan as the MD/CEO of FirstBank of Nigeria.\nYesterday, the board of First Bank had announced Adedutan\u2019s retirement and appointed Gbenga Shobo in his place.\nThe CBN had also warned FirstBank in a separate memo that Adedutan\u2019s removal was improper because his tenure had not elapsed.\nAlso, the CBN has announced a new board of directors for FirstBank.",
           "link": "https://techcabal.com/2021/04/29/cbn-sacks-first-bank-directors/",
@@ -354,43 +402,20 @@
           "scraped_date": "04/30/2021",
           "keywords": [
             "holdings",
-            "fbn",
-            "nigeria",
+            "limited",
             "directors",
-            "firstbank",
-            "sacks",
+            "board",
             "cbn",
             "announced",
             "removal",
             "group",
-            "board",
+            "shobo",
+            "fbn",
+            "sacks",
+            "firstbank",
             "bank",
-            "executive",
-            "limited",
-            "shobo"
-          ]
-        },
-        {
-          "title": "EXCLUSIVE: CBN asks First Bank to call in Otudeko\u2019s Honeywell Flour Mills loan facility within 48 hours",
-          "summary": "The Central Bank of Nigeria has directed the Oba Otudeko owned Honeywell Flour Mills to repay a loan to First Bank within 48 hours, according to a memo seen by TechCabal.\nBut the CBN is alleging that First Bank gave special treatment to Honeywell Flour Mills in restructuring its loan facility.\nOne big regulatory concern was Honeywell Flour Mill\u2019s collateral for the loan facility.\nThis order to divest from the apex bank has its roots in yet another bank loan involving Ecobank, Oba Otudeko and some Airtel shares used as a collateral.\nAccording to news reports, Otudeko\u2019s Airtel shares were used as collateral for Honeywell\u2019s Ecobank loan.",
-          "link": "https://techcabal.com/2021/04/29/cbn-first-bank-otudeko/",
-          "published": "04/29/2021",
-          "scraped_date": "04/30/2021",
-          "keywords": [
-            "exclusive",
-            "hours",
-            "otudeko",
             "nigeria",
-            "loan",
-            "cbn",
-            "otudekos",
-            "honeywell",
-            "facility",
-            "mills",
-            "bank",
-            "airtel",
-            "shares",
-            "flour"
+            "executive"
           ]
         }
       ]
@@ -405,25 +430,25 @@
           "published": "04/29/2021",
           "scraped_date": "04/30/2021",
           "keywords": [
-            "edo",
-            "nigeria",
-            "workshop",
+            "building",
+            "federal",
+            "capacity",
             "nigerian",
             "nifor",
-            "ministry",
-            "president",
+            "national",
+            "observer",
+            "workshop",
+            "nigeria",
+            "coconut",
+            "edo",
+            "fg",
+            "trains",
+            "farmers",
             "nursery",
             "30",
-            "processing",
-            "capacity",
-            "building",
-            "coconut",
-            "fg",
-            "observer",
-            "national",
-            "federal",
-            "farmers",
-            "trains"
+            "ministry",
+            "president",
+            "processing"
           ]
         }
       ]
@@ -442,19 +467,19 @@
           "published": "01/19/2021",
           "scraped_date": "04/30/2021",
           "keywords": [
-            "underaged",
-            "web",
-            "19",
-            "highways",
-            "register",
-            "cattle",
-            "prohibited",
-            "outlawed",
             "movement",
-            "nightgrazing",
             "jan",
+            "19",
+            "register",
             "wish",
-            "immediate"
+            "underaged",
+            "immediate",
+            "prohibited",
+            "nightgrazing",
+            "highways",
+            "outlawed",
+            "web",
+            "cattle"
           ]
         },
         {
@@ -464,23 +489,23 @@
           "published": "04/29/2021",
           "scraped_date": "04/30/2021",
           "keywords": [
-            "statement",
-            "benue",
-            "parts",
-            "expresses",
-            "governor",
-            "insecurity",
-            "buhari",
-            "blame",
-            "president",
-            "state",
-            "ortoms",
-            "country",
             "hes",
-            "citizens",
-            "disappointment",
+            "expresses",
+            "progress",
+            "ortoms",
+            "blame",
+            "benue",
+            "state",
             "attack",
-            "progress"
+            "governor",
+            "country",
+            "president",
+            "statement",
+            "insecurity",
+            "citizens",
+            "buhari",
+            "parts",
+            "disappointment"
           ]
         }
       ]
@@ -489,50 +514,52 @@
       "link": "https://leadership.ng/",
       "articles": [
         {
+          "title": "BUSINESS NOTE: Nigeria\u2019s Farming System Unattractive To Youths, Says MANN Chairman",
+          "summary": "BY KALU EZIYI, UmuahiaAbia State chairman of the Maize Association of Nigeria (MANN), Hon Onyekachi Erondu, has said the country\u2019s farming system is not attractive to the youths because it has remained a machete-and-hoe affair.\nThe MANN chairman said if the sector was well organised to begin with mechanisation through production, processing and marketing, it would have before now become the fastest growing with viable job windows.\nIn furtherance of this, the agriculturist called for a national arrangement for states to specialise in areas where they have comparative advantage in crop production, adding that this would enhance food production.\nErondu said modern research has established that maize could be planted up to three times in a year and charged members of the association to maximise the opportunity to boost food production and their revenue.\nHe also appealed for early supply of fertiliser and other agriculture inputs to farmers for mass food production in addition to the provision of tractors by the local government councils for hire to make the sector less cumbersome.",
+          "link": "https://leadership.ng/business-note-nigerias-farming-system-unattractive-to-youths-says-mann-chairman/",
+          "published": "04/30/2021",
+          "scraped_date": "04/30/2021",
+          "keywords": [
+            "chairman",
+            "production",
+            "farming",
+            "nigerias",
+            "mann",
+            "youths",
+            "modern",
+            "state",
+            "unattractive",
+            "business",
+            "food",
+            "sector",
+            "system",
+            "nigeria",
+            "note"
+          ]
+        },
+        {
           "title": "BUSINESS NOTE: Agripreneur: Kwara Launches 500-Hectare Youth Farm Scheme Per LG",
           "summary": "BY ABDULLAHI OLESIN, IlorinKwara State government has launched a pilot scheme of 500-hectare \u2018Farm Kwara\u2019 in Ifelodun local government area to create farming communities that will nurture future agripreneurs, improve the productivity of smallholder farmers and boost food security in the state.\nThe initiative, an offshoot of the recently launched Kwara State Agricultural Transformation Plan, is being facilitated by the state government to help young farmers to get land and financial facilities which will be paid back under a win-win arrangement.\nThis is essentially the hallmark of the National Youth Farm Programme.\nAlso, the senior special assistant to the governor on job creation, Aliyu Alhassan, said \u201cFarm Kwara\u201d, which is designed to nurture agripreneurs, would be commercially-driven.\nOba Adedunmoye urged the government to make the scheme a revolving one to check unemployment and fight poverty in the state.",
           "link": "https://leadership.ng/business-note-agripreneur-kwara-launches-500-hectare-youth-farm-scheme-per-lg/",
           "published": "04/30/2021",
           "scraped_date": "04/30/2021",
           "keywords": [
-            "land",
-            "governor",
-            "agricultural",
-            "security",
-            "note",
-            "state",
-            "scheme",
-            "lg",
-            "launches",
-            "kwara",
-            "youth",
-            "business",
             "farm",
-            "agripreneur",
+            "kwara",
+            "lg",
+            "land",
+            "ensure",
+            "agricultural",
+            "youth",
+            "state",
+            "security",
             "500hectare",
-            "ensure"
-          ]
-        },
-        {
-          "title": "Expert Chides Nigerian Government On Fuel Subsidy",
-          "summary": "BY ABAH ADAH, AbujaAn energy expert, Prince Mustapha Audu, has accused the federal government of mishandling the issue of subsidy on petrol instead of solving the problem.\nIn a telephone interview with LEADERSHIP on Thursday, Audu described a situation where Nigeria, a major oil producing nation in the world, still spending its oil earnings on fuel subsidy, as an ugly development.\nHe added that it is even worse that the fuel subsidy is being enjoyed by only a few people.\nHe said, \u2018\u2018It seems that the country is now facing the highest level of subsidy payment whereas the government had earlier claimed it would no longer pay fuel subsidy.\nSo, with all these problems, the funds that are being generated by the government are not used for development.",
-          "link": "https://leadership.ng/expert-chides-nigerian-government-on-fuel-subsidy/",
-          "published": "04/30/2021",
-          "scraped_date": "04/30/2021",
-          "keywords": [
-            "chides",
-            "used",
-            "funds",
-            "unfortunately",
-            "expert",
-            "subsidy",
-            "fuel",
-            "nigerian",
-            "country",
-            "states",
-            "position",
-            "truth",
-            "worse"
+            "launches",
+            "business",
+            "agripreneur",
+            "governor",
+            "note",
+            "scheme"
           ]
         }
       ]
@@ -547,18 +574,18 @@
           "published": "04/30/2021",
           "scraped_date": "04/30/2021",
           "keywords": [
-            "ijesha",
-            "confirm",
-            "girl",
-            "sexual",
             "advice",
-            "pending",
-            "legal",
             "custody",
+            "pending",
+            "ijesha",
             "baba",
-            "state",
+            "confirm",
+            "sexual",
             "remain",
-            "case"
+            "case",
+            "state",
+            "legal",
+            "girl"
           ]
         }
       ]
@@ -573,12 +600,12 @@
           "published": "04/30/2021",
           "scraped_date": "04/30/2021",
           "keywords": [
-            "nollywood",
+            "ejike",
             "state",
-            "video",
-            "asiegbu",
+            "nollywood",
             "nation",
-            "ejike"
+            "video",
+            "asiegbu"
           ]
         }
       ]
@@ -601,20 +628,20 @@
           "published": "04/29/2021",
           "scraped_date": "04/30/2021",
           "keywords": [
-            "road",
-            "callup",
-            "roads",
-            "apapa",
-            "ecall",
             "worsening",
-            "drivers",
             "electronic",
-            "npa",
-            "trucks",
-            "system",
-            "truck",
+            "drivers",
+            "road",
             "gridlock",
-            "amidst"
+            "apapa",
+            "npa",
+            "truck",
+            "roads",
+            "callup",
+            "system",
+            "amidst",
+            "trucks",
+            "ecall"
           ]
         },
         {
@@ -624,20 +651,20 @@
           "published": "04/27/2021",
           "scraped_date": "04/30/2021",
           "keywords": [
+            "problems",
+            "foster",
+            "development",
+            "subsahara",
+            "need",
             "growth",
             "world",
-            "data",
-            "achieve",
-            "subsaharan",
-            "africa",
-            "problems",
-            "need",
-            "regions",
             "ways",
-            "development",
+            "africa",
             "countries",
-            "foster",
-            "subsahara"
+            "achieve",
+            "regions",
+            "subsaharan",
+            "data"
           ]
         }
       ]
