@@ -168,14 +168,15 @@ def run(config, limit=2):
             prety_data['newspapers']['saharareporters']['articles'],
             prety_data['newspapers']['thecable']['articles'],
             prety_data['newspapers']['tech_cabal']['articles'],
-            prety_data['newspapers']['tribune']['articles'],
+            prety_data['newspapers']['daily_times']['articles'],
             prety_data['newspapers']['observer']['articles'],
             prety_data['newspapers']['premium_times']['articles'],
             prety_data['newspapers']['hallmark']['articles'],
             prety_data['newspapers']['leadership']['articles'],
-            prety_data['newspapers']['daily_trust']['articles'],
+            prety_data['newspapers']['news_direct']['articles'],
             prety_data['newspapers']['daylight']['articles'],
-            prety_data['newspapers']['pm_news']['articles']]
+            prety_data['newspapers']['pm_news']['articles'],
+            prety_data['newspapers']['biz_watch']['articles']]
 
         for articlez in all_articles:
             for line in articlez:
