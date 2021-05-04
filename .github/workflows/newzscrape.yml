@@ -4,7 +4,7 @@ on:
   push:
   workflow_dispatch:
   schedule:
-    - cron: '*/2 * * * *'
+    - cron: '0 */3 * * *'
 
 jobs:
   build:
@@ -50,8 +50,4 @@ jobs:
 
 
 
-      # - name: push changes
-      #   uses: ad-m/github-push-action@v0.6.0
-      #   with:
-      #     github_token: ${{ secrets.GITHUB_TOKEN }}
-      #     branch: main
+      

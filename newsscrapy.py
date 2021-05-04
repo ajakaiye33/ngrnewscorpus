@@ -131,7 +131,7 @@ def _handle_fallback(company, value, count, limit):
     return count, news_paper
 
 
-def run(config, limit=2):
+def run(config, limit=5):
     """Take a config object of sites and urls, and an upper limit.
 
     Iterate through each news company.
