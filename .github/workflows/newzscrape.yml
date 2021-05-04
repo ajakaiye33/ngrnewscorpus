@@ -2,10 +2,9 @@ name: scrape-online-newspapers-for-news
 
 on:
   push:
-    branches:
-      - main
+  workflow_dispatch:
   schedule:
-    - cron: '0 */3 * * *'
+    - cron: '*/2 * * * *'
 
 jobs:
   build:
@@ -38,14 +37,21 @@ jobs:
 
         run: pipenv run python newsscrapy.py
 
-      - name: commit files
+      - name: commit & push files
         run: |
-          git add -A
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          git commit -m "update data"
-      - name: push changes
-        uses: ad-m/github-push-action@v0.6.0
-        with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          branch: main
+          git add -A
+          timestamp=$(date --rfc-2822)
+          git commit -m "update data:${timestamp}" || exit 0
+          git push
+
+
+
+
+
+      # - name: push changes
+      #   uses: ad-m/github-push-action@v0.6.0
+      #   with:
+      #     github_token: ${{ secrets.GITHUB_TOKEN }}
+      #     branch: main

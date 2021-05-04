@@ -115,7 +115,7 @@ def _handle_fallback(company, value, count, limit):
             continue
         article = {
             "title": content.title,
-            # "text": content.text,
+            "text": content.text,
             "summary": content.summary,
             "link": content.url,
             "published": content.publish_date.strftime("%m/%d/%Y"),
