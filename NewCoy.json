@@ -37,6 +37,12 @@
 "tech_cabal":{
     "link":"https://techcabal.com/"
 },
+"tech_point":{
+    "link":"https://techpoint.africa/"
+},
+"techeconomy":{
+    "link":"https://techeconomy.ng/"
+},
 "observer":{
     "link":"https://nigerianobservernews.com/"
 },
@@ -63,8 +69,17 @@
 "news_direct":{
     "link":"https://newsdirect.ng/"
 },
-"biz_watch":{
-    "link":"https://bizwatchnigeria.ng/"
+"channelstv":{
+    "link":"https://www.channelstv.com/"
+},
+"tvcnews":{
+    "link":"https://www.tvcnews.tv/"
+},
+"aitnews":{
+    "link":"https://ait.live/"
+},
+"arisetv":{
+    "link":"https://www.arise.tv/"
 }
 
 
