@@ -41,7 +41,7 @@
     "link":"https://techpoint.africa/"
 },
 "techeconomy":{
-    "link":"https://techeconomy.ng/"
+    "link":"https://techeconomy.ng/category/news/"
 },
 "observer":{
     "link":"https://nigerianobservernews.com/"
@@ -69,14 +69,14 @@
 "news_direct":{
     "link":"https://newsdirect.ng/"
 },
+"blueprint":{
+    "link":"https://www.blueprint.ng/"
+},
 "channelstv":{
     "link":"https://www.channelstv.com/"
 },
 "tvcnews":{
     "link":"https://www.tvcnews.tv/"
-},
-"aitnews":{
-    "link":"https://ait.live/"
 },
 "arisetv":{
     "link":"https://www.arise.tv/"

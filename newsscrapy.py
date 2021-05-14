@@ -178,9 +178,9 @@ def run(config, limit=5):
             prety_data['newspapers']['news_direct']['articles'],
             prety_data['newspapers']['daylight']['articles'],
             prety_data['newspapers']['pm_news']['articles'],
+            prety_data['newspapers']['blueprint']['articles'],
             prety_data['newspapers']['channelstv']['articles'],
             prety_data['newspapers']['tvcnews']['articles'],
-            prety_data['newspapers']['aitnews']['articles'],
             prety_data['newspapers']['arisetv']['articles']]
 
         for articlez in all_articles:
