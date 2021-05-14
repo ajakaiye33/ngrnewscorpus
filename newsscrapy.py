@@ -13,7 +13,7 @@ import newspaper
 from newspaper import Article
 import jsonlines
 import nltk
-# nltk.download('punkt')
+nltk.download('punkt')
 
 
 data = {}
