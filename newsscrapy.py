@@ -146,15 +146,15 @@ def run(config, limit=5):
         else:
             count, news_paper = _handle_fallback(company, value, count, limit)
         data["newspapers"][company] = news_paper
-    export_file = "./data/scraped_articles.json"
-    updatejson = "./data/testy.jsonl"
+    export_file = "./doc/scraped_articles.json"
+    updatejson = "./doc/testy.jsonl"
 
     # Finally it saves the articles as a JSON-file.
     try:
         with open(export_file, "w") as outfile:
             json.dump(data, outfile, indent=2)
 
-        with open('./data/scraped_articles.json', 'r') as f:
+        with open('./doc/scraped_articles.json', 'r') as f:
             prety_data = json.load(f)
 
         see_data = []
