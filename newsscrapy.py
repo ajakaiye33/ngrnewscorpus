@@ -169,7 +169,7 @@ def run(config, limit=5):
             prety_data['newspapers']['thecable']['articles'],
             prety_data['newspapers']['tech_cabal']['articles'],
             prety_data['newspapers']['tech_point']['articles'],
-            prety_data['newspapers']['techeconomy']['articles'],
+            prety_data['newspapers']['bizday']['articles'],
             prety_data['newspapers']['daily_times']['articles'],
             prety_data['newspapers']['observer']['articles'],
             prety_data['newspapers']['premium_times']['articles'],
@@ -179,7 +179,7 @@ def run(config, limit=5):
             prety_data['newspapers']['daylight']['articles'],
             prety_data['newspapers']['pm_news']['articles'],
             prety_data['newspapers']['blueprint']['articles'],
-            prety_data['newspapers']['newswire']['articles'],
+            prety_data['newspapers']['nigpilot']['articles'],
             prety_data['newspapers']['channelstv']['articles'],
             prety_data['newspapers']['tvcnews']['articles'],
             prety_data['newspapers']['arisetv']['articles']]

@@ -31,58 +31,75 @@
             "link":"http://saharareporters.com/"
 },
 
+
 "thecable":{
-"link":"https://www.thecable.ng/"
+
+        "link":"https://www.thecable.ng/"
 },
+
 "tech_cabal":{
-    "link":"https://techcabal.com/"
+
+        "link":"https://techcabal.com/"
 },
+
 "tech_point":{
-    "link":"https://techpoint.africa/"
+        "link":"https://techpoint.africa/"
 },
-"techeconomy":{
-    "link":"https://techeconomy.ng/category/news/"
+
+"bizday":{
+        "link":"https://businessday.ng/"
 },
+
 "observer":{
-    "link":"https://nigerianobservernews.com/"
+        "link":"https://nigerianobservernews.com/"
 },
+
 "premium_times":{
-    "link":"https://www.premiumtimesng.com/category/news"
+        "link":"https://www.premiumtimesng.com/category/news"
 },
 
 "hallmark":{
-    "link":"https://hallmarknews.com/"
+        "link":"https://hallmarknews.com/"
 },
+
 "leadership":{
-    "link":"https://leadership.ng/category/nigeria-news/"
+        "link":"https://leadership.ng/category/nigeria-news/"
 },
+
 "daily_times":{
-    "link":"https://dailytimes.ng/"
+        "link":"https://dailytimes.ng/"
 },
+
 "daylight":{
-    "link":"https://daylightng.com/"
+        "link":"https://daylightng.com/"
 },
 
 "pm_news":{
-    "link":"https://www.pmnewsnigeria.com/"
+        "link":"https://www.pmnewsnigeria.com/"
 },
+
 "news_direct":{
-    "link":"https://newsdirect.ng/"
+        "link":"https://newsdirect.ng/"
 },
+
 "blueprint":{
-    "link":"https://www.blueprint.ng/"
+        "link":"https://www.blueprint.ng/"
 },
-"newswire":{
-    "link":"https://newswirengr.com/"
+
+"nigpilot":{
+        "link":"https://nigerianpilot.news/"
 },
+
 "channelstv":{
-    "link":"https://www.channelstv.com/"
+        "link":"https://www.channelstv.com/"
 },
+
 "tvcnews":{
-    "link":"https://www.tvcnews.tv/"
+        "link":"https://www.tvcnews.tv/"
 },
+
 "arisetv":{
-    "link":"https://www.arise.tv/"
+        "link":"https://www.arise.tv/"
 }
 
 
