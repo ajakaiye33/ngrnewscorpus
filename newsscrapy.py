@@ -148,6 +148,7 @@ def run(config, limit=5):
         data["newspapers"][company] = news_paper
     export_file = "./docs/scraped_articles.json"
     updatejson = "./docs/testy.jsonl"
+    summary_news = "./docs/todays-news-summary.json"
 
     # Finally it saves the articles as a JSON-file.
     try:
@@ -158,40 +159,36 @@ def run(config, limit=5):
             prety_data = json.load(f)
 
         see_data = []
-        all_articles = [
-            prety_data['newspapers']['punch']['articles'],
-            prety_data['newspapers']['vanguard']['articles'],
-            prety_data['newspapers']['dailypost']['articles'],
-            prety_data['newspapers']['thenation']['articles'],
-            prety_data['newspapers']['sun_news']['articles'],
-            prety_data['newspapers']['thisday']['articles'],
-            prety_data['newspapers']['saharareporters']['articles'],
-            prety_data['newspapers']['thecable']['articles'],
-            prety_data['newspapers']['tech_cabal']['articles'],
-            prety_data['newspapers']['tech_point']['articles'],
-            prety_data['newspapers']['bizday']['articles'],
-            prety_data['newspapers']['daily_times']['articles'],
-            prety_data['newspapers']['observer']['articles'],
-            prety_data['newspapers']['premium_times']['articles'],
-            prety_data['newspapers']['hallmark']['articles'],
-            prety_data['newspapers']['leadership']['articles'],
-            prety_data['newspapers']['news_direct']['articles'],
-            prety_data['newspapers']['daylight']['articles'],
-            prety_data['newspapers']['pm_news']['articles'],
-            prety_data['newspapers']['blueprint']['articles'],
-            prety_data['newspapers']['nigpilot']['articles'],
-            prety_data['newspapers']['channelstv']['articles'],
-            prety_data['newspapers']['tvcnews']['articles'],
-            prety_data['newspapers']['arisetv']['articles']]
+        summary_data = []
+        # filter data
 
-        for articlez in all_articles:
-            for line in articlez:
-                see_data.append(line)
+        for newspaperz in prety_data['newspapers']:
+            for j in prety_data['newspapers'][newspaperz]['articles']:
+                headline_text = {}
+                headline_text['title'] = j.get('title')
+                headline_text['text'] = j.get('text')
+                headline_text['summary'] = j.get('summary')
+                headline_text['link'] = j.get('link')
+                headline_text['published'] = j.get('published')
+                headline_text['scraped_date'] = j.get('scraped_date')
+                headline_text['keywords'] = j.get('keywords')
+                see_data.append(headline_text)
+        print(see_data)
 
         with open(updatejson, mode='a') as f:
             for entry in see_data:
                 json.dump(entry, f)
                 f.write('\n')
+
+        for i in prety_data['newspapers']:
+            for h in prety_data['newspapers'][i]['articles']:
+                summary_text = {}
+                summary_text['headline'] = h.get('title')
+                summary_text['summarized_story'] = h.get('summary')
+                summary_data.append(summary_text)
+
+        with open(summary_news, "w") as juju:
+            json.dump(summary_data, juju, indent=2)
 
     except Exception as err:
         print(err)
