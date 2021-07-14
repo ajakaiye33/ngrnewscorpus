@@ -3,6 +3,7 @@ json and S3.
 """
 
 import sys
+import pandas as pd
 import json
 from time import mktime
 from datetime import datetime
@@ -148,6 +149,7 @@ def run(config, limit=5):
         data["newspapers"][company] = news_paper
     export_file = "./docs/scraped_articles.json"
     updatejson = "./docs/testy.jsonl"
+    cleaned_data = "./docs/bigdata.csv"
     summary_news = "./docs/todays-news-summary.json"
 
     # Finally it saves the articles as a JSON-file.
@@ -173,13 +175,17 @@ def run(config, limit=5):
                 headline_text['scraped_date'] = j.get('scraped_date')
                 headline_text['keywords'] = j.get('keywords')
                 see_data.append(headline_text)
-        print(see_data)
+        #print(see_data)
 
-        with open(updatejson, mode='a') as f:
-            for entry in see_data:
-                json.dump(entry, f)
-                f.write('\n')
-
+#         with open(updatejson, mode='a') as f:
+#             for entry in see_data:
+#                 json.dump(entry, f)
+#                 f.write('\n')
+        
+        our_data = pd.read_json('https://raw.githubusercontent.com/ajakaiye33/ngrnewscorpus/main/docs/testy.jsonl',lines=True)
+        our_data.drop_duplicates(subset=['title','text','summary'], keep=False,inplace=True)
+        our_data.to_csv(cleaned_data, mode="a", header=False, index=False)
+        
         for i in prety_data['newspapers']:
             for h in prety_data['newspapers'][i]['articles']:
                 summary_text = {}
