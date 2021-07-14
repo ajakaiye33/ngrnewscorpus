@@ -183,8 +183,9 @@ def run(config, limit=5):
 #                 f.write('\n')
         
         our_data = pd.read_json(see_data)
-        our_data.drop_duplicates(keep='last', inplace=True)
-        our_data.to_csv(cleaned_data, mode="a", header=False, index=False)
+        sort_value = our_data.sort_values(['title','text','summary','link','published','scraped_date','keywords'], ascending=False)
+        group_data = sort_value.groupby(['title','text','summary','link','published','scraped_date','keywords']).first().reset_index()
+        group_date.to_csv(cleaned_data, mode="a", header=False, index=False)
         
         for i in prety_data['newspapers']:
             for h in prety_data['newspapers'][i]['articles']:
