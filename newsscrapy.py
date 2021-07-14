@@ -183,7 +183,7 @@ def run(config, limit=5):
 #                 f.write('\n')
         
         our_data = pd.read_json(see_data)
-        our_data.drop_duplicates(subset=['title','text','summary'], keep=False,inplace=True)
+        our_data.drop_duplicates(subset=['title','text','summary'],inplace=True)
         our_data.to_csv(cleaned_data, mode="a", header=False, index=False)
         
         for i in prety_data['newspapers']:
