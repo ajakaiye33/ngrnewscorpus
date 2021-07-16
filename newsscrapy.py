@@ -149,7 +149,8 @@ def run(config, limit=5):
         data["newspapers"][company] = news_paper
     export_file = "./docs/scraped_articles.json"
     #updatejson = "./docs/testy.jsonl"
-    cleaned_data = "./docs/bigdata.csv"
+    #cleaned_data = "./docs/bigdata.csv"
+    filtered_data = "./docs/historical_corpus.csv"
     summary_news = "./docs/todays-news-summary.json"
 
     # Finally it saves the articles as a JSON-file.
@@ -182,9 +183,10 @@ def run(config, limit=5):
 #                 json.dump(entry, f)
 #                 f.write('\n')
         
-        our_data = pd.DataFrame(see_data)
-        #our_data.drop_duplicates(keep='last', inplace=True)
-        our_data.to_csv(cleaned_data, mode="a", header=False, index=False)
+        #our_data = pd.DataFrame(see_data)
+        our_data = pd.read_csv('https://raw.githubusercontent.com/ajakaiye33/ngrnewscorpus/main/docs/bigdata.csv')
+        our_data = our_data[our_data['scraped_date'] == our_data['published']].drop_duplicates(subset=['title'], keep='last')
+        our_data.to_csv(filtered_data, mode="a", header=False, index=False)
         
         for i in prety_data['newspapers']:
             for h in prety_data['newspapers'][i]['articles']:
