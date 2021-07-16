@@ -148,9 +148,7 @@ def run(config, limit=5):
             count, news_paper = _handle_fallback(company, value, count, limit)
         data["newspapers"][company] = news_paper
     export_file = "./docs/scraped_articles.json"
-    #updatejson = "./docs/testy.jsonl"
     cleaned_data = "./docs/historical-corpus.csv"
-    #filtered_data = "./docs/historical_corpus.csv"
     summary_news = "./docs/todays-news-summary.json"
 
     # Finally it saves the articles as a JSON-file.
@@ -183,8 +181,7 @@ def run(config, limit=5):
 #                 json.dump(entry, f)
 #                 f.write('\n')
         
-        #our_data = pd.DataFrame(see_data)
-        our_data = pd.read_csv('https://raw.githubusercontent.com/ajakaiye33/ngrnewscorpus/main/docs/bigdata.csv',parse_dates=['published','scraped_date'], names = ['title', 'text','summary','link','published','scraped_date','keywords'])
+        our_data = pd.DataFrame(see_data)
         our_clean_data = our_data[our_data['scraped_date'] == our_data['published']].drop_duplicates(subset=['title'], keep='last')
         our_clean_data.to_csv(cleaned_data, mode="a", header=False, index=False)
         
