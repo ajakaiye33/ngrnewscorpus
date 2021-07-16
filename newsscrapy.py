@@ -149,7 +149,7 @@ def run(config, limit=5):
         data["newspapers"][company] = news_paper
     export_file = "./docs/scraped_articles.json"
     #updatejson = "./docs/testy.jsonl"
-    #cleaned_data = "./docs/bigdata.csv"
+    cleaned_data = "./docs/bigdata.csv"
     filtered_data = "./docs/historical_corpus.csv"
     summary_news = "./docs/todays-news-summary.json"
 
